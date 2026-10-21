@@ -14,10 +14,16 @@ fun main() {
     binnie.walk()
     clyde.walk()
 
+    println(binnie)
+    println(clyde)
+
     /* println(objectName)
         automatically calls the toString() method
         to determine how the object should be displayed. */
 
+    binnie.eat()
+    clyde.eat()
+    println("After eating")
     println(binnie)
     println(clyde)
 }
